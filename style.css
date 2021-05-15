@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    height: 70px;
+    border: 2px solid red;
+}
+header h2{
+    text-align: center;
+    margin: 22px 20px;
+}
+nav{
+    height: 70px;
+    border: 2px solid blue;
+}
+nav .btn{
+    border: 2px solid rgb(172, 172, 207);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: rgb(162 162 202);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav .shift{
+    float: right;
+}
+.btn:hover{
+    background-color: rgb(201, 201, 216);
+}
+aside{
+    height: 500px;
+    border: 2px solid green;
+}
+footer{
+    height: 60px;
+    border: 2px solid black;
+}
+footer h4{
+    text-align: center;
+    margin: 22px 20px;
+}
